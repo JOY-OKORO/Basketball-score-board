@@ -2,34 +2,43 @@
     width: 500px;
     height: 400px;
     margin: auto;
-    padding: 0 20px;
     box-sizing: border-box;
     background-color: #171738;
     display: flex;
     text-align: center;
-    padding-left: 15px;
-    margin-top: 40px;
+    padding:  15 10 20;
+    border-radius: 10px;
 }
 
 .content{
     display: flex;
     gap: 150px;
-    margin-top: 30px;
     text-align: center;
     margin-left: 20px;
+    margin: auto;
+    
 }
 
 p{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 
 .score{
     background-color: #021012;
     height: 100px;
-    width: 100px;
+    width: 150px;
     font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3px;
+    align-items: center;
+}
+
+#num{
+    color: #C40234;
+    font-size: 5rem;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -48,4 +57,5 @@ button{
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    color: #fff;
 }
