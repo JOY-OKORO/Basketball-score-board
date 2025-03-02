@@ -3,7 +3,7 @@
     height: 400px;
     margin: auto;
     box-sizing: border-box;
-    background-color: #171738;
+    background-color: #0000FF;
     display: flex;
     text-align: center;
     padding:  15 10 20;
@@ -27,7 +27,7 @@ p{
 }
 
 .score{
-    background-color: #021012;
+    background-color: #003262;
     height: 100px;
     width: 150px;
     font-size: 2rem;
@@ -37,6 +37,13 @@ p{
 }
 
 #num{
+    color: #C40234;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: dotted;
+}
+
+#count{
     color: #C40234;
     font-size: 5rem;
     font-family: 'Roboto', sans-serif;
