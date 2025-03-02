@@ -1,5 +1,5 @@
 .container{
-    width: 500px;
+    width: 600px;
     height: 400px;
     margin: auto;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ p{
 .score{
     background-color: #003262;
     height: 100px;
-    width: 150px;
+    width: 200px;
     font-size: 2rem;
     font-family: 'Roboto', sans-serif;
     border-radius: 3px;

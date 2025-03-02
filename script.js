@@ -15,25 +15,30 @@ function add3() {
     num += 3
     document.getElementById("num").textContent = num;
 }
+function subtract() {
+    num -= 1
+    document.getElementById("num").textContent = num;
+}
+
+
 
 let count = 0
-function add1() {
+function inc() {
     count += 1
-    document.getElementById("count").textContent = num;
+    document.getElementById("count").textContent = count;
 }
 
-function add2() {
+function in2() {
     count += 2
-    document.getElementById("count").textContent = num;
+    document.getElementById("count").textContent = count;
 }
 
-function add3() {
+function in3() {
     count += 3
-    document.getElementById("count").textContent = num;
+    document.getElementById("count").textContent = count;
 }
 
-function subtract1() {
+function sub1() {
      count -= 1
-     document.getElementById("num").textContent = num;
+     document.getElementById("count").textContent = count;
 }
-
